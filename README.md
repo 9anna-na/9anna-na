@@ -1,7 +1,3 @@
-<div align="center">
-  <img src="./assets/joanna-banner.png" alt="Joanna Li — small tools, thoughtful systems" width="100%" />
-</div>
-
 <br>
 
 Hi, I’m Joanna! I study Economics and Finance at National Taiwan University. I’m the kind of person who likes turning messy processes into something clearer, calmer, and more useful—usually with data, AI, or a tiny automation. My path started in chemistry, wandered into economics, and now keeps expanding into technology and product thinking.
