@@ -48,7 +48,7 @@ You’re **🌸** and the cat is **🐾**. Pick an empty square, submit the tiny
 <!-- CAT_GAME_START -->
 | | | |
 |:---:|:---:|:---:|
-| [▫️](https://github.com/9anna-na/9anna-na/issues/new?title=%5Bcat-game%5D%20move%201&body=Submit%20this%20Issue%20to%20place%20your%20flower%20in%20square%201.%20%F0%9F%8C%B8) | [▫️](https://github.com/9anna-na/9anna-na/issues/new?title=%5Bcat-game%5D%20move%202&body=Submit%20this%20Issue%20to%20place%20your%20flower%20in%20square%202.%20%F0%9F%8C%B8) | 🌸 |
+| 🌸 | 🐾 | 🌸 |
 | [▫️](https://github.com/9anna-na/9anna-na/issues/new?title=%5Bcat-game%5D%20move%204&body=Submit%20this%20Issue%20to%20place%20your%20flower%20in%20square%204.%20%F0%9F%8C%B8) | 🐾 | [▫️](https://github.com/9anna-na/9anna-na/issues/new?title=%5Bcat-game%5D%20move%206&body=Submit%20this%20Issue%20to%20place%20your%20flower%20in%20square%206.%20%F0%9F%8C%B8) |
 | 🌸 | [▫️](https://github.com/9anna-na/9anna-na/issues/new?title=%5Bcat-game%5D%20move%208&body=Submit%20this%20Issue%20to%20place%20your%20flower%20in%20square%208.%20%F0%9F%8C%B8) | 🐾 |
 
