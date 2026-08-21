@@ -1,6 +1,5 @@
 <div align="center">
-  <img src="./assets/joanna-cat-final.png" alt="Joanna's pixel cat" width="150" />
-  <h3>Joanna's little corner 🌷</h3>
+  <img src="./assets/joanna-cat-final.png" alt="Joanna's pixel cat" width="85" />
   <p><i>small tools, thoughtful systems, and curious experiments</i></p>
 </div>
 
