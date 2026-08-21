@@ -1,14 +1,12 @@
 #!/usr/bin/env python3
-"""Update Joanna's tiny profile tic-tac-toe game from a GitHub Issue."""
+"""Tally profile votes and update Joanna's community tic-tac-toe board."""
 
 from __future__ import annotations
 
 import json
-import os
 import random
-import re
 from pathlib import Path
-from urllib.parse import quote
+from urllib.request import Request, urlopen
 
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -16,7 +14,7 @@ README = ROOT / "README.md"
 STATE = ROOT / "game" / "state.json"
 START = "<!-- CAT_GAME_START -->"
 END = "<!-- CAT_GAME_END -->"
-REPO_URL = "https://github.com/9anna-na/9anna-na"
+VOTE_API = "https://joanna-tiny-game-break.jls940519.chatgpt.site"
 WINS = (
     (0, 1, 2), (3, 4, 5), (6, 7, 8),
     (0, 3, 6), (1, 4, 7), (2, 5, 8),
@@ -34,23 +32,29 @@ def winner(board: list[str]) -> str | None:
 def best_cat_move(board: list[str]) -> int:
     empty = [i for i, mark in enumerate(board) if not mark]
     for mark in ("cat", "player"):
-        for i in empty:
+        for index in empty:
             trial = board.copy()
-            trial[i] = mark
+            trial[index] = mark
             if winner(trial) == mark:
-                return i
+                return index
     if 4 in empty:
         return 4
     corners = [i for i in (0, 2, 6, 8) if i in empty]
-    if corners:
-        return random.choice(corners)
-    return random.choice(empty)
+    return random.choice(corners or empty)
 
 
-def move_link(index: int) -> str:
-    title = quote(f"[cat-game] move {index + 1}")
-    body = quote(f"Click Create to place your flower in square {index + 1}. 🌸")
-    return f"{REPO_URL}/issues/new?title={title}&body={body}"
+def fetch_counts() -> list[int]:
+    request = Request(f"{VOTE_API}/api/votes", headers={"User-Agent": "joanna-cat-game"})
+    with urlopen(request, timeout=20) as response:
+        payload = json.load(response)
+    counts = payload.get("counts")
+    if not isinstance(counts, list) or len(counts) != 9:
+        raise RuntimeError("Vote API returned an invalid board")
+    return [int(value) for value in counts]
+
+
+def vote_link(index: int) -> str:
+    return f"{VOTE_API}/api/vote?cell={index + 1}"
 
 
 def render_cell(mark: str, index: int) -> str:
@@ -58,15 +62,12 @@ def render_cell(mark: str, index: int) -> str:
         return "🌸"
     if mark == "cat":
         return "🐾"
-    return f"[▫️]({move_link(index)})"
+    return f"[▫️]({vote_link(index)})"
 
 
 def render(board: list[str], message: str) -> str:
     cells = [render_cell(mark, i) for i, mark in enumerate(board)]
-    reset_title = quote("[cat-game] new round")
-    reset_body = quote("Click Create to reset the board. 🐱")
-    reset_url = f"{REPO_URL}/issues/new?title={reset_title}&body={reset_body}"
-    lines = [
+    return "\n".join([
         START,
         "| | | |",
         "|:---:|:---:|:---:|",
@@ -74,10 +75,9 @@ def render(board: list[str], message: str) -> str:
         f"| {cells[3]} | {cells[4]} | {cells[5]} |",
         f"| {cells[6]} | {cells[7]} | {cells[8]} |",
         "",
-        f"_{message}_ · [start a new round]({reset_url})",
+        f"_{message}_",
         END,
-    ]
-    return "\n".join(lines)
+    ])
 
 
 def replace_game(markdown: str, game: str) -> str:
@@ -87,36 +87,41 @@ def replace_game(markdown: str, game: str) -> str:
 
 
 def main() -> None:
-    title = os.environ.get("GAME_ISSUE_TITLE", "").strip()
     state = json.loads(STATE.read_text())
     board = state["board"]
-    if title == "[cat-game] new round":
+    counts = fetch_counts()
+    last_counts = state.get("last_counts", [0] * 9)
+
+    if winner(board) or all(board):
         board = [""] * 9
         state["round"] = int(state.get("round", 0)) + 1
-        message = "Your turn — pick a square!"
+        message = "A fresh round is open—pick an empty square."
     else:
-        match = re.fullmatch(r"\[cat-game\] move ([1-9])", title)
-        if not match:
-            raise SystemExit("Not a cat-game command")
-        move = int(match.group(1)) - 1
-        if board[move]:
-            raise SystemExit("That square is already occupied")
-        if winner(board) or all(board):
-            raise SystemExit("This round is over; start a new round")
-        board[move] = "player"
-        if winner(board) == "player":
-            message = "You won! The cat demands a rematch 😼"
-        elif all(board):
-            message = "A very peaceful draw 🌷"
+        deltas = [max(0, now - before) for now, before in zip(counts, last_counts)]
+        candidates = [i for i, votes in enumerate(deltas) if votes and not board[i]]
+
+        if not candidates:
+            message = "Voting is open—pick an empty square."
         else:
-            board[best_cat_move(board)] = "cat"
-            if winner(board) == "cat":
-                message = "The cat wins this round 🐱"
+            top_votes = max(deltas[i] for i in candidates)
+            move = random.choice([i for i in candidates if deltas[i] == top_votes])
+            board[move] = "player"
+
+            if winner(board) == "player":
+                message = "The community wins! The cat requests a rematch."
             elif all(board):
-                message = "A very peaceful draw 🌷"
+                message = "A very peaceful draw."
             else:
-                message = "Your turn — the cat has made its move!"
+                board[best_cat_move(board)] = "cat"
+                if winner(board) == "cat":
+                    message = "The cat wins this round—another starts soon."
+                elif all(board):
+                    message = "A very peaceful draw."
+                else:
+                    message = "The community played 🌸 and the cat answered 🐾."
+
     state["board"] = board
+    state["last_counts"] = counts
     STATE.write_text(json.dumps(state, ensure_ascii=False, indent=2) + "\n")
     README.write_text(replace_game(README.read_text(), render(board, message)))
 
