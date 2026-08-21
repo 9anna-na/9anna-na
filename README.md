@@ -48,11 +48,11 @@ You’re **🌸** and the cat is **🐾**. Click an empty square, then create th
 <!-- CAT_GAME_START -->
 | | | |
 |:---:|:---:|:---:|
-| [▫️](https://github.com/9anna-na/9anna-na/issues/new?title=%5Bcat-game%5D%20move%201&body=Click%20Create%20to%20place%20your%20flower%20in%20square%201.%20%F0%9F%8C%B8) | [▫️](https://github.com/9anna-na/9anna-na/issues/new?title=%5Bcat-game%5D%20move%202&body=Click%20Create%20to%20place%20your%20flower%20in%20square%202.%20%F0%9F%8C%B8) | [▫️](https://github.com/9anna-na/9anna-na/issues/new?title=%5Bcat-game%5D%20move%203&body=Click%20Create%20to%20place%20your%20flower%20in%20square%203.%20%F0%9F%8C%B8) |
-| [▫️](https://github.com/9anna-na/9anna-na/issues/new?title=%5Bcat-game%5D%20move%204&body=Click%20Create%20to%20place%20your%20flower%20in%20square%204.%20%F0%9F%8C%B8) | [▫️](https://github.com/9anna-na/9anna-na/issues/new?title=%5Bcat-game%5D%20move%205&body=Click%20Create%20to%20place%20your%20flower%20in%20square%205.%20%F0%9F%8C%B8) | [▫️](https://github.com/9anna-na/9anna-na/issues/new?title=%5Bcat-game%5D%20move%206&body=Click%20Create%20to%20place%20your%20flower%20in%20square%206.%20%F0%9F%8C%B8) |
+| [▫️](https://github.com/9anna-na/9anna-na/issues/new?title=%5Bcat-game%5D%20move%201&body=Click%20Create%20to%20place%20your%20flower%20in%20square%201.%20%F0%9F%8C%B8) | [▫️](https://github.com/9anna-na/9anna-na/issues/new?title=%5Bcat-game%5D%20move%202&body=Click%20Create%20to%20place%20your%20flower%20in%20square%202.%20%F0%9F%8C%B8) | 🌸 |
+| [▫️](https://github.com/9anna-na/9anna-na/issues/new?title=%5Bcat-game%5D%20move%204&body=Click%20Create%20to%20place%20your%20flower%20in%20square%204.%20%F0%9F%8C%B8) | 🐾 | [▫️](https://github.com/9anna-na/9anna-na/issues/new?title=%5Bcat-game%5D%20move%206&body=Click%20Create%20to%20place%20your%20flower%20in%20square%206.%20%F0%9F%8C%B8) |
 | [▫️](https://github.com/9anna-na/9anna-na/issues/new?title=%5Bcat-game%5D%20move%207&body=Click%20Create%20to%20place%20your%20flower%20in%20square%207.%20%F0%9F%8C%B8) | [▫️](https://github.com/9anna-na/9anna-na/issues/new?title=%5Bcat-game%5D%20move%208&body=Click%20Create%20to%20place%20your%20flower%20in%20square%208.%20%F0%9F%8C%B8) | [▫️](https://github.com/9anna-na/9anna-na/issues/new?title=%5Bcat-game%5D%20move%209&body=Click%20Create%20to%20place%20your%20flower%20in%20square%209.%20%F0%9F%8C%B8) |
 
-_Your turn — pick a square!_ · [start a new round](https://github.com/9anna-na/9anna-na/issues/new?title=%5Bcat-game%5D%20new%20round&body=Click%20Create%20to%20reset%20the%20board.%20%F0%9F%90%B1)
+_Your turn — the cat has made its move!_ · [start a new round](https://github.com/9anna-na/9anna-na/issues/new?title=%5Bcat-game%5D%20new%20round&body=Click%20Create%20to%20reset%20the%20board.%20%F0%9F%90%B1)
 <!-- CAT_GAME_END -->
 
 <br>
