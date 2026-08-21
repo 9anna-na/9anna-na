@@ -44,8 +44,10 @@ exploring → economics × technology × human-centered products
 ### a tiny break, if you need one 😽
 
 <details>
-<summary><b>find the cat</b> — pick a hiding spot</summary>
+<summary><b>open the tiny game drawer</b></summary>
 <br>
+
+<b>first: where is the cat hiding?</b>
 
 <details>
 <summary>☕ behind the coffee cup</summary>
@@ -62,21 +64,32 @@ Three unfinished ideas, seven tabs, no cat.
 You found her! She was supervising the whole time. 😽
 </details>
 
-</details>
+<br>
 
-#### community tic-tac-toe
+<b>then: help the flowers win in one move 🌸</b>
 
-You’re **🌸** and the cat is **🐾**. Pick an empty square to vote—twice an hour, the community’s favourite move is played and the cat answers.
-
-<!-- CAT_GAME_START -->
 | | | |
 |:---:|:---:|:---:|
-| [▫️](https://joanna-tiny-game-break.jls940519.chatgpt.site/api/vote?cell=1) | [▫️](https://joanna-tiny-game-break.jls940519.chatgpt.site/api/vote?cell=2) | [▫️](https://joanna-tiny-game-break.jls940519.chatgpt.site/api/vote?cell=3) |
-| [▫️](https://joanna-tiny-game-break.jls940519.chatgpt.site/api/vote?cell=4) | [▫️](https://joanna-tiny-game-break.jls940519.chatgpt.site/api/vote?cell=5) | [▫️](https://joanna-tiny-game-break.jls940519.chatgpt.site/api/vote?cell=6) |
-| [▫️](https://joanna-tiny-game-break.jls940519.chatgpt.site/api/vote?cell=7) | [▫️](https://joanna-tiny-game-break.jls940519.chatgpt.site/api/vote?cell=8) | [▫️](https://joanna-tiny-game-break.jls940519.chatgpt.site/api/vote?cell=9) |
+| 🌸 | 🐾 | ▫️ |
+| 🐾 | 🌸 | ▫️ |
+| ▫️ | 🐾 | ▫️ |
 
-_Voting is open—pick an empty square._
-<!-- CAT_GAME_END -->
+<details>
+<summary>try the top-right square</summary>
+A tempting move, but there’s no line yet.
+</details>
+
+<details>
+<summary>try the bottom-left square</summary>
+Close—the cat is still unconvinced.
+</details>
+
+<details>
+<summary>try the bottom-right square</summary>
+Diagonal win! The cat is pretending not to care. 😽
+</details>
+
+</details>
 
 <br>
 
