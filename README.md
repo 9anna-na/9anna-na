@@ -41,19 +41,12 @@ exploring → economics × technology × human-centered products
 
 `Python` · `VBA` · `Data Analysis` · `AI Agents` · `Automation` · `Product Thinking`
 
-### a game powered by GitHub Issues 🐾
+### ☕ café & dessert guestbook
 
-You’re **🌸** and the cat is **🐾**. Pick an empty square, submit the tiny pre-filled Issue, and the cat will answer automatically. The Issue closes itself after the move—yes, the strange GitHub mechanism is part of the game.
+found a café worth missing the train for? or a dessert you’re still thinking about? 🍰
+leave me your must-order, your tiny review, or a place I should save for later.
 
-<!-- CAT_GAME_START -->
-| | | |
-|:---:|:---:|:---:|
-| 🌸 | 🐾 | 🌸 |
-| 🌸 | 🐾 | [▫️](https://github.com/9anna-na/9anna-na/issues/new?title=%5Bcat-game%5D%20move%206&body=Submit%20this%20Issue%20to%20place%20your%20flower%20in%20square%206.%20%F0%9F%8C%B8) |
-| 🌸 | [▫️](https://github.com/9anna-na/9anna-na/issues/new?title=%5Bcat-game%5D%20move%208&body=Submit%20this%20Issue%20to%20place%20your%20flower%20in%20square%208.%20%F0%9F%8C%B8) | 🐾 |
-
-_You won! The cat demands a rematch 😼_ · [start a new round](https://github.com/9anna-na/9anna-na/issues/new?title=%5Bcat-game%5D%20new%20round&body=Submit%20this%20Issue%20to%20reset%20the%20board.%20%F0%9F%90%B1)
-<!-- CAT_GAME_END -->
+[drop a recommendation →](https://github.com/9anna-na/9anna-na/discussions/6) · I’ll happily trade a recommendation back. ♡
 
 <br>
 
