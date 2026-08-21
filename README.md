@@ -13,14 +13,14 @@ Hi, I’m Joanna! I study Economics and Finance at National Taiwan University. I
 - 🧺 Building small tools for data analysis, productivity, and automation
 - ✨ Learning in public through experiments and open source
 
-### 🍵 things I’m making
+### 🍵 ideas I’m growing
 
-| Project | What it’s about |
+| Idea | A small direction I’d like to explore |
 | --- | --- |
-| **Workflow Garden** | Small automations that tidy up repetitive document and reporting work. |
-| **Taiwan Data Notes** | Friendly visual stories about economics, decisions, and everyday life. |
-| **AI Career Sidekick** | A calmer way to track opportunities, applications, and career reflections. |
-| **Tiny Experiments** | Notes, prototypes, and lessons from building in public. |
+| **Workflow Garden** | Tiny automations for repetitive document and reporting work. |
+| **Taiwan Data Notes** | Visual stories about economics, decisions, and everyday life. |
+| **AI Career Sidekick** | A calmer way to organise opportunities and applications. |
+| **Tiny Experiments** | Small prototypes, notes, and things I’m learning along the way. |
 
 ### 📖 on my workbench
 
