@@ -1,3 +1,9 @@
+<div align="center">
+  <img src="./assets/joanna-cat-final.png" alt="Joanna's pixel cat" width="150" />
+  <h3>Joanna's little corner 🌷</h3>
+  <p><i>small tools, thoughtful systems, and curious experiments</i></p>
+</div>
+
 Hi, I’m Joanna! I study Economics and Finance at National Taiwan University. I’m the kind of person who likes turning messy processes into something clearer, calmer, and more useful—usually with data, AI, or a tiny automation. My path started in chemistry, wandered into economics, and now keeps expanding into technology and product thinking.
 
 ### 🌼 a little about me
@@ -34,6 +40,20 @@ exploring → economics × technology × human-centered products
 ### 🧰 tiny toolbox
 
 `Python` · `VBA` · `Data Analysis` · `AI Agents` · `Automation` · `Product Thinking`
+
+### play a tiny game with my cat? 🐾
+
+You’re **🌸** and the cat is **🐾**. Click an empty square, then create the pre-filled Issue. The cat will take its turn automatically.
+
+<!-- CAT_GAME_START -->
+| | | |
+|:---:|:---:|:---:|
+| [▫️](https://github.com/9anna-na/9anna-na/issues/new?title=%5Bcat-game%5D%20move%201&body=Click%20Create%20to%20place%20your%20flower%20in%20square%201.%20%F0%9F%8C%B8) | [▫️](https://github.com/9anna-na/9anna-na/issues/new?title=%5Bcat-game%5D%20move%202&body=Click%20Create%20to%20place%20your%20flower%20in%20square%202.%20%F0%9F%8C%B8) | [▫️](https://github.com/9anna-na/9anna-na/issues/new?title=%5Bcat-game%5D%20move%203&body=Click%20Create%20to%20place%20your%20flower%20in%20square%203.%20%F0%9F%8C%B8) |
+| [▫️](https://github.com/9anna-na/9anna-na/issues/new?title=%5Bcat-game%5D%20move%204&body=Click%20Create%20to%20place%20your%20flower%20in%20square%204.%20%F0%9F%8C%B8) | [▫️](https://github.com/9anna-na/9anna-na/issues/new?title=%5Bcat-game%5D%20move%205&body=Click%20Create%20to%20place%20your%20flower%20in%20square%205.%20%F0%9F%8C%B8) | [▫️](https://github.com/9anna-na/9anna-na/issues/new?title=%5Bcat-game%5D%20move%206&body=Click%20Create%20to%20place%20your%20flower%20in%20square%206.%20%F0%9F%8C%B8) |
+| [▫️](https://github.com/9anna-na/9anna-na/issues/new?title=%5Bcat-game%5D%20move%207&body=Click%20Create%20to%20place%20your%20flower%20in%20square%207.%20%F0%9F%8C%B8) | [▫️](https://github.com/9anna-na/9anna-na/issues/new?title=%5Bcat-game%5D%20move%208&body=Click%20Create%20to%20place%20your%20flower%20in%20square%208.%20%F0%9F%8C%B8) | [▫️](https://github.com/9anna-na/9anna-na/issues/new?title=%5Bcat-game%5D%20move%209&body=Click%20Create%20to%20place%20your%20flower%20in%20square%209.%20%F0%9F%8C%B8) |
+
+_Your turn — pick a square!_ · [start a new round](https://github.com/9anna-na/9anna-na/issues/new?title=%5Bcat-game%5D%20new%20round&body=Click%20Create%20to%20reset%20the%20board.%20%F0%9F%90%B1)
+<!-- CAT_GAME_END -->
 
 <br>
 
