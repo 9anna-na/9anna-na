@@ -41,55 +41,19 @@ exploring → economics × technology × human-centered products
 
 `Python` · `VBA` · `Data Analysis` · `AI Agents` · `Automation` · `Product Thinking`
 
-### a tiny break, if you need one 😽
+### a game powered by GitHub Issues 🐾
 
-<details>
-<summary><b>open the tiny game drawer</b></summary>
-<br>
+You’re **🌸** and the cat is **🐾**. Pick an empty square, submit the tiny pre-filled Issue, and the cat will answer automatically. The Issue closes itself after the move—yes, the strange GitHub mechanism is part of the game.
 
-<b>first: where is the cat hiding?</b>
-
-<details>
-<summary>☕ behind the coffee cup</summary>
-Only foam and a very ambitious latte-art attempt.
-</details>
-
-<details>
-<summary>🧺 inside the project basket</summary>
-Three unfinished ideas, seven tabs, no cat.
-</details>
-
-<details>
-<summary>🌷 under the soft pink blanket</summary>
-You found her! She was supervising the whole time. 😽
-</details>
-
-<br>
-
-<b>then: help the flowers win in one move 🌸</b>
-
+<!-- CAT_GAME_START -->
 | | | |
 |:---:|:---:|:---:|
-| 🌸 | 🐾 | ▫️ |
-| 🐾 | 🌸 | ▫️ |
-| ▫️ | 🐾 | ▫️ |
+| [▫️](https://github.com/9anna-na/9anna-na/issues/new?title=%5Bcat-game%5D%20move%201&body=Submit%20this%20Issue%20to%20place%20your%20flower%20in%20square%201.%20%F0%9F%8C%B8) | [▫️](https://github.com/9anna-na/9anna-na/issues/new?title=%5Bcat-game%5D%20move%202&body=Submit%20this%20Issue%20to%20place%20your%20flower%20in%20square%202.%20%F0%9F%8C%B8) | [▫️](https://github.com/9anna-na/9anna-na/issues/new?title=%5Bcat-game%5D%20move%203&body=Submit%20this%20Issue%20to%20place%20your%20flower%20in%20square%203.%20%F0%9F%8C%B8) |
+| [▫️](https://github.com/9anna-na/9anna-na/issues/new?title=%5Bcat-game%5D%20move%204&body=Submit%20this%20Issue%20to%20place%20your%20flower%20in%20square%204.%20%F0%9F%8C%B8) | [▫️](https://github.com/9anna-na/9anna-na/issues/new?title=%5Bcat-game%5D%20move%205&body=Submit%20this%20Issue%20to%20place%20your%20flower%20in%20square%205.%20%F0%9F%8C%B8) | [▫️](https://github.com/9anna-na/9anna-na/issues/new?title=%5Bcat-game%5D%20move%206&body=Submit%20this%20Issue%20to%20place%20your%20flower%20in%20square%206.%20%F0%9F%8C%B8) |
+| [▫️](https://github.com/9anna-na/9anna-na/issues/new?title=%5Bcat-game%5D%20move%207&body=Submit%20this%20Issue%20to%20place%20your%20flower%20in%20square%207.%20%F0%9F%8C%B8) | [▫️](https://github.com/9anna-na/9anna-na/issues/new?title=%5Bcat-game%5D%20move%208&body=Submit%20this%20Issue%20to%20place%20your%20flower%20in%20square%208.%20%F0%9F%8C%B8) | [▫️](https://github.com/9anna-na/9anna-na/issues/new?title=%5Bcat-game%5D%20move%209&body=Submit%20this%20Issue%20to%20place%20your%20flower%20in%20square%209.%20%F0%9F%8C%B8) |
 
-<details>
-<summary>try the top-right square</summary>
-A tempting move, but there’s no line yet.
-</details>
-
-<details>
-<summary>try the bottom-left square</summary>
-Close—the cat is still unconvinced.
-</details>
-
-<details>
-<summary>try the bottom-right square</summary>
-Diagonal win! The cat is pretending not to care. 😽
-</details>
-
-</details>
+_Your turn—pick a square._ · [start a new round](https://github.com/9anna-na/9anna-na/issues/new?title=%5Bcat-game%5D%20new%20round&body=Submit%20this%20Issue%20to%20reset%20the%20board.%20%F0%9F%90%B1)
+<!-- CAT_GAME_END -->
 
 <br>
 
